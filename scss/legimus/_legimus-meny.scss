@@ -1,0 +1,29 @@
+.legimus {
+    &-meny {
+        display: block;
+        clear: both;
+        height: 55px;
+        margin: 0;
+        margin-bottom: 10px;
+        
+        & ol {
+            list-style-type: none;
+            margin: 0 0 1em 2%;
+
+        }
+        &-item {
+            list-style-type: none;
+            & p {
+                float: left;
+                padding: .6em 1%;
+                font-family: "variableblack",Helvetica,Arial,sans-serif;
+                font-weight: normal;
+                font-size: 1.4em;
+                color: black;
+            }
+        }
+    }
+    &-last p {
+        float: right;
+    }
+}

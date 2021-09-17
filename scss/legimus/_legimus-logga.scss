@@ -1,0 +1,17 @@
+.legimus {
+    &-logotyp {
+        float: left;
+        margin-left: 2%;
+        margin-top: 1.5em;
+        & img {
+            border-width: 0;
+        }
+    }
+    &-tpb_logotyp {
+        float: right;
+        margin: 2em 3em 1em;
+        & img {
+            border-width: 0;
+        }
+    }
+}

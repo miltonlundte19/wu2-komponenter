@@ -1,0 +1,22 @@
+@forward 'legimus-meny_top';
+@forward "legimus-logga";
+@forward 'legimus-meny';
+.legimus {
+    background: url(../images/body-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font: 68.5%/1.4 Verdana,Geneva,Arial,Lucida,Helvetica,sans-serif;
+
+    &-start {
+        width: 60rem;
+        margin: 0 auto;
+        background-color: white;
+    }
+    & ul,& ol,& li {
+        padding: 0;
+        list-style-position: inside;
+    }
+    & p {
+        margin: 0;
+    }
+    
+}
