@@ -1,4 +1,9 @@
 @use 'legimus/legimus';
+@use 'youtube/youtube';
+
+html, body {
+    height: 100%;
+}
 
 body {
     margin: 0;

@@ -1,0 +1,9 @@
+.youtube {
+    background-color: #181818;
+    & h3 {
+        margin: 0;
+    }
+    & > div {
+        margin: .3rem .3rem 0 .3rem;
+    }
+}
