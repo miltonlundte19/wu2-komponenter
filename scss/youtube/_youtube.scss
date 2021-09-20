@@ -1,9 +1,28 @@
+@use 'utilities/viriubuls' as *;
 .youtube {
     background-color: #181818;
-    & h3 {
+    & h3, & p {
         margin: 0;
     }
+    & h3, & span, & p {
+        color: white;
+    }
+    
     & > div {
-        margin: .3rem .3rem 0 .3rem;
+        padding: .3rem .3rem 0 .3rem;
+        display: flex;
+        
+    }
+    &-item {
+        height: var(--yt-item-s-hite);
+        width: var(--yt-item-s-whide);
+        
+        &-imag{
+            & > div {
+                background-color: white;
+                height: var(--yt-img-hite);
+                width: var(--yt-img-whide);
+            }
+        }
     }
 }

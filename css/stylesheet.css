@@ -88,14 +88,34 @@
   margin: 0;
 }
 
+:root {
+  --yt-img-hite: 10rem;
+  --yt-img-whide: 16rem;
+  --yt-item-s-hite: 20rem;
+  --yt-item-s-whide: 15rem;
+}
+
 .youtube {
   background-color: #181818;
 }
-.youtube h3 {
+.youtube h3, .youtube p {
   margin: 0;
 }
+.youtube h3, .youtube span, .youtube p {
+  color: white;
+}
 .youtube > div {
-  margin: 0.3rem 0.3rem 0 0.3rem;
+  padding: 0.3rem 0.3rem 0 0.3rem;
+  display: flex;
+}
+.youtube-item {
+  height: var(--yt-item-s-hite);
+  width: var(--yt-item-s-whide);
+}
+.youtube-item-imag > div {
+  background-color: white;
+  height: var(--yt-img-hite);
+  width: var(--yt-img-whide);
 }
 
 html, body {
